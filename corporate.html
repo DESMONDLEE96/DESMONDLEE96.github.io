@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+	<head>
+	 <link rel="stylesheet" type="text/css" href="website.css">
+         <link rel="shortcut icon" href="image/plane.png">
+
+	<title>
+		365 Travel 
+	</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133589026-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-133589026-1');
+        
+        
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}   
+	</script>
+
+
+	<meta charset= "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body style="background-color: powderblue;">
+	        
+        <div id="navbar">
+        <img src="image/plane.png" alt="plane" style="width:10%;height:1%;position:relative"> 
+        <div id="navbar-right">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Destination.html">Things to do</a>
+        <a href="Attraction.html">Attraction</a>
+        <a class="active" href="#">Cooperation partner</a>
+        <a href="contact.html">Contact</a>
+        </div> </div>
+                
+        <div class="slideshow-container">
+               <div class="mySlides fade">
+               <div class="numbertext">1 / 9</div>
+               <img src="image/Dubai.jpg" alt="dubai" style="width:100%;height:800px;">
+               <div class="text">Dubai</div>
+               </div>
+
+               <div class="mySlides fade">
+               <div class="numbertext">2 / 9</div>
+               <img src="image/Lakes.jpg" alt="lakes" style="width:100%;height:800px;">
+               <div class="text">Lakes & Rivers of Morocco </div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">3 / 9</div>
+               <img src="image/malaysia.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Kuala Lumpur - Malaysia</div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">4 / 9</div>
+               <img src="image/osaka_1.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Osaka - Japan</div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">5 / 9</div>
+               <img src="image/shawi.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">ShangHai - China</div>
+               </div>
+            
+                <div class="mySlides fade">
+               <div class="numbertext">6 / 9</div>
+               <img src="image/Apple-Hong-Kong.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Victoria Peak - Hong Kong China</div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">7 / 9</div>
+               <img src="image/Siem-Reap.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Siem Reap - Cambodia </div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">8 / 9</div>
+               <img src="image/taiwan.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">TaoYuan - Taiwan</div>
+               </div>
+            
+                <div class="mySlides fade">
+               <div class="numbertext">9 / 9</div>
+               <img src="image/Wat.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Wat - Thailand </div>
+               </div>
+     
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center;margin-bottom: 50px;">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+                  <span class="dot" onclick="currentSlide(7)"></span>
+                  <span class="dot" onclick="currentSlide(8)"></span> 
+                  <span class="dot" onclick="currentSlide(9)"></span>
+                </div>  
+                
+                <div class="row">
+                  <div class="leftcolumn1">
+                  <div class="card">
+                  <table style="width:100%"> 
+                    <tr>
+                        <td><a href="https://www.airasia.com/">
+                       <img src="image/airasia.png" alt="plane" style="width:50%;height:30%;position:relative;">
+                            </a></td>
+                            <td><a href="https://www.malaysiaairlines.com/my/en.html">
+                       <img src="image/Malaysiaair.png" alt="plane" style="width:50%;height:30%;position:relative;">
+                            </a></td>
+                            <td><a href="https://www.booking.com/">
+                       <img src="image/Booking.png" alt="plane" style="width:50%;height:30%;position:relative;">
+                            </a></td>
+                            <td><a href="https://www.expedia.com.my/">
+                       <img src="image/ex.png" alt="plane" style="width:80%;height:30%;position:relative;">
+                            </a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.cathaypacific.com/cx/en_MY.html?gclid=Cj0KCQiAk-7jBRD9ARIsAEy8mh5ca1TAgLZGwqdTT2c6O8TMDbJ40mQAl4XXtiwsgYTDPnd84b4BvJQaAqpgEALw_wcB&gclsrc=aw.ds">
+                       <img src="image/cathai.png" alt="plane" style="width:50%;height:30%;position:relative;">
+                            </a></td>
+                            <td><a href="https://www.getyourguide.com/">
+                       <img src="image/Get.png" alt="plane" style="width:50%;height:20%;position:relative;">
+                            </a></td>
+                  </tr>     
+
+                  </table>
+                
+                  </div> 
+                        
+                      
+               
+                    </div> 
+                    </div>
+                
+                
+                <script>
+               var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>     
+                
+                <div class="footer">
+                 <h6>&trade;365TRAVEL Group Berhad. Your usage of the 365Travel website indicates that you agree to be bound by our Terms and Conditions, Terms of Use and Privacy policy</h6>
+                </div>
+
+  
+ 
+
+
+	</body>
+</html>

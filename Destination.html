@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+	<head>
+	 <link rel="stylesheet" type="text/css" href="website.css">
+         <link rel="shortcut icon" href="image/plane.png">
+
+	<title>
+		365 Travel 
+	</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133589026-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-133589026-1');
+        
+        
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}   
+	</script>
+
+
+	<meta charset= "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body style="background-color: powderblue;">
+	        
+        <div id="navbar">
+        <img src="image/plane.png" alt="plane" style="width:10%;height:1%;position:relative"> 
+        <div id="navbar-right">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="#">Things to do</a>
+        <a href="Attraction.html">Attraction</a>
+        <a href="corporate.html">Cooperation partner</a>
+        <a href="contact.html">Contact</a>
+        </div> </div>
+                
+        <div class="slideshow-container">
+               <div class="mySlides fade">
+               <div class="numbertext">1 / 9</div>
+               <img src="image/Dubai.jpg" alt="dubai" style="width:100%;height:800px;">
+               <div class="text">Dubai</div>
+               </div>
+
+               <div class="mySlides fade">
+               <div class="numbertext">2 / 9</div>
+               <img src="image/Lakes.jpg" alt="lakes" style="width:100%;height:800px;">
+               <div class="text">Lakes & Rivers of Morocco </div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">3 / 9</div>
+               <img src="image/malaysia.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Kuala Lumpur - Malaysia</div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">4 / 9</div>
+               <img src="image/osaka_1.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Osaka - Japan</div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">5 / 9</div>
+               <img src="image/shawi.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">ShangHai - China</div>
+               </div>
+            
+                <div class="mySlides fade">
+               <div class="numbertext">6 / 9</div>
+               <img src="image/Apple-Hong-Kong.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Victoria Peak - Hong Kong China</div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">7 / 9</div>
+               <img src="image/Siem-Reap.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Siem Reap - Cambodia </div>
+               </div>
+            
+               <div class="mySlides fade">
+               <div class="numbertext">8 / 9</div>
+               <img src="image/taiwan.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">TaoYuan - Taiwan</div>
+               </div>
+            
+                <div class="mySlides fade">
+               <div class="numbertext">9 / 9</div>
+               <img src="image/Wat.jpg" alt="lakes"  style="width:100%;height:800px;">
+               <div class="text">Wat - Thailand </div>
+               </div>
+     
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center;margin-bottom: 50px;">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+                  <span class="dot" onclick="currentSlide(7)"></span>
+                  <span class="dot" onclick="currentSlide(8)"></span> 
+                  <span class="dot" onclick="currentSlide(9)"></span>
+                </div>   
+                
+                <div class="row">
+                    <p style="color:black; text-align: center; font-size: 50px;font-weight: 900;">Things to do</p>
+                  <div class="leftcolumn2">
+                  <div class="card" style="margin-bottom: 20px;" >
+                  <h2>Batu Caves</h2>
+                  <h5>Gombak, Malaysia</h5>
+                  <div class="fakeimg">
+                       <img src="image/temple.JPG" alt="airaisa" style="height:300px;width:80%">
+                  </div>
+                  <p>Batu Caves is a limestone hill that has a series of caves and cave temples in Gombak, Selangor, Malaysia. It takes its name from the Sungai Batu (Stone River), 
+                      which flows past the hill. It is the tenth limestone hill from Ampang. Batu Caves is also the name of a nearby village. The cave is one of the most popular Tamil shrines outside India, 
+                      and is dedicated to Lord Murugan. It is the focal point of Hindu festival of Thaipusam in Malaysia. Batu Caves in short also referred as 10th Caves or Hill for Lord Muruga as there are six 
+                      important holy shrines in India and four more in Malaysia. The three others in Malaysia are Kallumalai Temple in Ipoh, Tanneermalai Temple in Penang and Sannasimalai Temple in Malacca. 
+                  </p>
+                  
+                  </div> 
+                      
+                      
+                  <div class="card" style="margin-bottom:20px;">
+                    <h2>Things to do in Mong Kok </h2>
+                    <h5>HongKong</h5>
+                    <div class="fakeimg">
+                       <img src="image/Fa-Yuen.jpg" alt="airaisa" style="height:400px;width:80%">
+                    </div>
+                    <p>Mong Kok is one of the most popular and bustling districts in Hong Kong. You may not find many great international brands here, but you will certainly come across some unique local spots. 
+                       Here is our list of the 9 best things to do in Mong Kok.</p>
+                    <p>&#9755; Yuen Street (Sneakers Street)</p>
+                    <p>&#9755; Sai Yeung Choi Street</p>
+                    <p>&#9755; Mon Kok street food</p>
+                    <p>&#9755; LADIES’ MARKET</p>
+                    <p>&#9755; THE SKY BAR</p>
+                    <p>&#9755; MING COURT</p>
+                    <p>&#9755; GOLDFISH MARKET</p>
+                    <p>&#9755; THE LANGHAM PLACE SHOPPING MALL</p>
+                    <p>&#9755; TEMPLE STREET NIGHT MARKET</p>
+                    <p><a href="https://theculturetrip.com/asia/hong-kong/articles/the-top-10-things-to-do-and-see-in-mong-kok-hong-kong/">Things to do in Mongkok, HongKong</a></p>
+                    </div>
+                      
+                      <div class="card">
+                    <h2>China</h2>
+                    <div class="fakeimg">
+                       <img src="image/china.jpg" alt="airaisa" style="height:400px;width:80%">
+                    </div>
+                    <p>China is a populous nation in East Asia whose vast landscape encompasses grassland, desert, mountains, lakes, rivers and more than 14,000km of coastline. 
+                        Capital Beijing mixes modern architecture with historic sites such as the Forbidden City palace complex and Tiananmen Square. Shanghai is a skyscraper-studded 
+                        global financial center. The iconic Great Wall of China runs east-west across the country's north</p>
+                    <p>&#9755; The Great Wall of China </p>
+                    <p>&#9755; The Forbidden City</p>
+                    <p>&#9755; The Terracotta Army</p>
+                    <p>&#9755; The Li River</p>
+                    <p>&#9755; The Yellow Mountains</p>
+                    <p>&#9755; Giant Pandas</p>
+                    <p>&#9755; The Potala Palace</p>
+                    <p>&#9755; The Bund</p>
+                    <p>&#9755; <a href="https://www.chinahighlights.com/travelguide/top-highlights-of-china.htm">Things to do in China</a></p>
+                    </div>
+                    </div> 
+
+                    <div class="rightcolumn2">
+                       <div class="card" style="margin-bottom: 20px;">
+                         <h2>Kuala Lumpur Tower </h2>
+                         <h5>Malaysia</h5>
+                       <div class="fakeimg">
+                         <img src="image/Menara.JPG" alt="airaisa" style="height:500px;width:40%">
+                       </div>
+                        <p>The KL Tower, also known as the Menara Kuala Lumpur, is one of the most iconic sights in Kuala Lumpur. 
+                            Visible from most parts of the city and measuring 1,381-feet-high (about 452 meters), 
+                            it's one of the world's tallest telecommunications towers. With your admission ticket, 
+                            visit whenever is convenient for you during operating hours.Take one of the high-speed elevators to the fully enclosed Observation Deck, 
+                            located 905-feet (about 276 meters) above ground level, to enjoy a panoramic view of Kuala Lumpur</p>
+                        <p style="font-size:20px;">Highlights</p>
+                        <p>&#9755; See Kuala Lumpur from one of the highest spots in the metropolitan area</p>
+                        <p>&#9755; Enjoy panoramic views from the enclosed deck</p>
+                        <p>&#9755; Watch a multisensory movie at the XD Theatre</p>
+                        <p>&#9755; <a href="https://www.menarakl.com.my/">Menara Kuala Lumpur</a></p>
+                       </div> 
+                        
+                        <div class="card" style="margin-bottom: 20px;">
+                         <h2>Singapore </h2>
+                         <div class="fakeimg">
+                         <img src="image/singapore.jpg" alt="airaisa" style="height:400px;width:80%">
+                         </div>
+                         <p>Singapore, an island city-state off southern Malaysia, is a global financial center with a tropical climate and multicultural population. 
+                             Its colonial core centers on the Padang, a cricket field since the 1830s and now flanked by grand buildings such as City Hall, with its 18 Corinthian columns. 
+                             In Singapore's circa-1820 Chinatown stands the red-and-gold Buddha Tooth Relic Temple, said to house one of Buddha's teeth.
+                             Here is our list of the 7 best things to do in Singapore.</p>
+                         <p>&#9755; Take a Night Safari</p>
+                         <p>&#9755; Day out at Singapore Zoo</p>
+                         <p>&#9755; Gardens by the Bay</p>
+                         <p>&#9755; Shop on Orchard Road</p>
+                         <p>&#9755; Day out at Universal Studios</p>
+                         <p>&#9755; S.E.A. Aquarium</p>
+                         <p>&#9755; Ride the Singapore Flyer</p>
+                           <p>&#9755; <a href="https://santorinidave.com/best-things-to-do-singapore">Things to do in Singapore </a></p>
+                          </div> 
+                        
+                        <div class="card">
+                         <h2>Osaka - Japan </h2>
+                         <div class="fakeimg">
+                         <img src="image/Osaka.jpg" alt="airaisa" style="height:500px;width:80%">
+                         </div>
+                         <p>Osaka is a large port city and commercial center on the Japanese island of Honshu. It's known for its modern architecture, nightlife and hearty street food. 
+                             The 16th-century shogunate Osaka Castle, which has undergone several restorations, is its main historical landmark. It's surrounded by a moat and park with plum, 
+                             peach and cherry-blossom trees. Sumiyoshi-taisha is among Japan’s oldest Shinto shrines.
+                             Here is our list of the best things to do in Osaka - Japan </p>
+                             <p>&#9755; Visit Osaka Castle (Osaka-Jo) </p>
+                             <p>&#9755; Tour Kamigata Ukiyoe Museum</p>
+                             <p>&#9755; Osaka Museum of Housing and Living</p>
+                             <p>&#9755; Sumiyoshi Shrine</p>
+                             <p>&#9755; Ascend the Umeda Sky Building</p>
+                             <p>&#9755; National Bunraku Theater</p>
+                             <p>&#9755; Dotonbori</p>
+                             <p>&#9755; National Bunraku Theater</p>
+                             <p>&#9755; Osaka Aquarium</p>
+                             <p>&#9755; Shopping in Shinsaibashi</p>
+                             <p>&#9755; Ride the Tempozan Ferris Wheel</p>
+                             <p>&#9755; Shitennoji Temple</p>
+                             <p>&#9755; Universal Studios Japan/p>
+                           <p>&#9755; <a href="https://www.thecrazytourist.com/25-best-things-osaka-japan/">Things to do in Osaka - Japan </a></p>
+                          </div> 
+                        </div>
+                    </div>
+                
+                
+                <script>
+               var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>     
+                
+                <div class="footer">
+                 <h6>&trade;365TRAVEL Group Berhad. Your usage of the 365Travel website indicates that you agree to be bound by our Terms and Conditions, Terms of Use and Privacy policy</h6>
+                </div>
+
+  
+ 
+
+
+	</body>
+</html>
